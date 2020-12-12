@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationaaa">
-        <activity android:name=".ui.NewsContentActivity"></activity>
+        <activity android:name=".ui.NewsMainActivity"></activity>
+        <activity android:name=".ui.NewsContentActivity" />
         <activity android:name=".recycleview.RecyclerviewTestActivity" />
         <activity android:name=".listview.TestListViewActivity" />
         <activity android:name=".kotlin.TestActivity" />

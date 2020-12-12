@@ -26,6 +26,7 @@ class NewsContentActivity : AppCompatActivity() {
         val content = intent.getStringExtra("news_content")
         if (title != null && content != null) {
             val fragment = newsContentFrag as NewsContentFragment
+            //刷新NewsContentFragment的界面
             fragment.refresh(title, content)
         }
     }
