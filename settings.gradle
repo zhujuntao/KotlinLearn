@@ -1,0 +1,3 @@
+include ':modulelogin'
+include ':app'
+rootProject.name = "MyApplicationaaa"
