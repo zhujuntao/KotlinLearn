@@ -1,4 +1,4 @@
 package com.example.learn.bean
 
-class Person {
+open class Person(val name: String, val age: Int) {
 }
