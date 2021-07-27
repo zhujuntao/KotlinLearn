@@ -9,4 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //第1次 提交修改
     }
+
+    fun two(){
+        //第2次 提交修改
+    }
 }
